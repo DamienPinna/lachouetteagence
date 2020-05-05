@@ -46,6 +46,20 @@ cite {
     color: #575757!important;
 }
 
+.mb-3 {
+    margin-bottom: 30px;
+}
+
+.mx-auto {
+    margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .ml-1 {
+        margin-left: 10px;
+    }
+}
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
