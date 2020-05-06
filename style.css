@@ -54,10 +54,23 @@ cite {
     margin: auto;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .ml-1 {
         margin-left: 10px;
     }
+}
+
+.fa {
+    margin-top: 15px;
+}
+
+.icon-acces {
+    width: 48px;
+    height: 48px;
+}
+
+.link-acces li {
+    margin-bottom: 8px;
 }
 
 #page-loading-blocs-notifaction {
@@ -521,7 +534,7 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 48px!important;
 }
 
 .icon-lg {
@@ -555,16 +568,16 @@ button {
     box-shadow: none;
 }
 
-.scrollToTop {
+/* .scrollToTop {
     width: 40px;
     height: 40px;
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
+    opacity: 1;
     z-index: 500;
     transition: all .3s ease-in-out;
-}
+} */
 
 .scrollToTop span {
     margin-top: 6px;
@@ -718,7 +731,7 @@ a {
     text-align: center;
     font-weight: lighter;
     max-width: 520px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 p {
@@ -727,7 +740,7 @@ p {
 
 .tight-width-whitespace {
     max-width: 600px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 .h1 {
@@ -746,7 +759,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 h2 {
@@ -838,7 +851,7 @@ h4 {
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #540303!important;
+    color: #3c0202!important;
 }
 
 .ltc-white {
