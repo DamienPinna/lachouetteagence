@@ -54,6 +54,11 @@ cite {
     margin: auto;
 }
 
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
 @media screen and (max-width: 767px) {
     .ml-1 {
         margin-left: 10px;
